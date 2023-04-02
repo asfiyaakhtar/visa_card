@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Document</title>
+    <link href="card.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="card_box">
+        <h1>Visa</h1>
+        <p style="text-align: center">1234 1234 1234</p>
+        <p style="margin-top: 60px">Card Holder</p>
+        <p>Full Name</p>
+      </div>
+
+      <p style="margin-top: 10px">Card Number</p>
+      <input type="number" id="number" style="width: 100%" />
+
+      <p style="margin-top: 10px" ;>Card Holder</p>
+      <input type="text" id="holder" style="width: 100%" />
+
+      <p style="margin-top: 10px">Expiration Date</p>
+      <input
+        type="month"
+        placeholder="month"
+        style="width: 60px; height: 25px"
+      />
+
+      <input
+        type="number"
+        placeholder="year"
+        style="width: 60px; height: 25px"
+      />
+
+      <p style="margin-top: 10px">CW</p>
+      <input type="number" style="width: 40px; height: 25px" />
+      <br />
+      <button id="btn">Submit</button>
+    </div>
+    <script src="card.js"></script>
+  </body>
+</html>

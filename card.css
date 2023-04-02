@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(210, 222, 233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_box {
+  width: 25rem;
+  height: 10rem;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+h1 {
+  text-align: end;
+}
+h3 {
+  border: 1px bold black;
+}
+
+.card {
+  width: 450px;
+  height: 500px;
+  background-color: azure;
+  margin-top: 20%;
+  padding: 25px;
+  margin: 10px;
+}
+
+button {
+  background-color: blue;
+  width: 90%;
+  height: 25px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 15px;
+  left: 20px;
+}
